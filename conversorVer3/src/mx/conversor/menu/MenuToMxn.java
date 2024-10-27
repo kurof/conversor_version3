@@ -2,9 +2,9 @@ package conversorVer3.src.mx.conversor.menu;
 
 import java.util.Scanner;
 
-import conversorVer3.src.mx.conversor.logic.DivisaToMxn;
+import conversorVer3.src.mx.conversor.logic.Conversor;
 
-public class Menu2 {
+public class MenuToMxn {
 
     public void menuConversor2(){
 
@@ -17,7 +17,7 @@ public class Menu2 {
         double foreignAmount = 0; //variable de la cantidad
 
         //para llamar a la clase
-        DivisaToMxn toMxn = new DivisaToMxn();
+        Conversor toMxn = new Conversor();
 
         //Loop do while para el menu
         do{
